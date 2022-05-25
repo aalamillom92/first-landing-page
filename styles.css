@@ -1,0 +1,233 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0px;
+}
+
+.header,
+.footer {
+    background-color: #1f2937;
+    height: 7vh;
+}
+
+.header {
+    font-size: 24px;
+    color: #f9faf8;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.logo {
+    font-weight: bolder;
+}
+
+.links {
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-size: 18px;
+    gap: 25px;
+    color: #e5e7eb;
+}
+
+a {
+    text-decoration: none;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+}
+
+.contents {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.contentone {
+    display: flex;
+    background-color: #1f2937;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentonecontent {
+    display: flex;
+    width: 120vh;
+    height: 40vh;
+    padding: 15px;
+}
+
+.signininfo {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    margin-right: 50px;
+}
+
+.signinfotitle {
+    display: flex;
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+
+.signindescription {
+    display: flex;
+    font-size: 18px;
+    color: #e5e7eb;
+    align-items: center;
+
+}
+
+.signininfo button {
+    border: 0px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 8px;
+    margin-right: auto;
+}
+
+.imagecontent {
+    width: 50%;
+    display: flex;
+}
+
+
+/* Second content */
+
+.contenttwo {
+    display: flex;
+    background-color: white;
+    flex-grow: 1;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ctheader {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    height: fit-content;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.ctcontent {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    width: 100vw;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+
+.member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    border: 2px solid #3882f6;
+}
+
+.member {
+    max-width: 100px;
+}
+
+.cttext {
+    font-size: 14px;
+    color: gray;
+    text-align: center;
+}
+
+
+/* Third content */
+
+.contentthree {
+    display: flex;
+    background-color: #e5e7eb;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.cthcontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    gap: 10px;
+    padding: 80px;
+}
+
+.cthquote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.cthquoteauthor {
+    font-weight: bold;
+    color: #1f2937;
+    align-self: flex-end;
+}
+
+/* Fourth content */
+
+.contentfour {
+    display: flex;
+    background-color: white;
+    flex-grow: 1;
+    justify-content: center;
+    align-content: center;
+    padding: 40px;
+}
+
+.cfcontent {
+    display: flex;
+    background-color: #3882f6;
+    width: 70%;
+    height: 50%;
+    color: #f9faf8;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.calltoaction {
+    display: flex;
+    width: 60%;
+    font-weight: bold;
+    font-size: 18px
+}
+
+
+.cfbtn {
+    display: flex;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+}
+
+.cfbtn button {
+    border: 2px solid white;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 8px;
+    padding: 10px;
+}
